@@ -16,10 +16,6 @@ module "azure-greencloud-spoke" {
   
   # Optional 
 
-  # version = var.version
+  # version = var.module_version
   # security_domain = var.security_domain
 }
-
-
-variable "ctrl_ip" {default = data.terraform_remote_state.secrets.outputs.ctrl_ip}
-variable "ctrl_password" {default = data.terraform_remote_state.secrets.outputs.ctrl_password}

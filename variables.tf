@@ -6,6 +6,6 @@ variable "region" {}
 
 variable "arm_subscription_id" {}
 
-variable "version" {
+variable "module_version" {
   default = null
 }
