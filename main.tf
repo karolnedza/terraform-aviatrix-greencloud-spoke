@@ -1,6 +1,6 @@
 module "azure-greencloud-spoke" {
 
-  source  = "app.terraform.io/greencloud/azure-spoke-custom/aviatrix"
+  source  = "app.terraform.io/greencloud/az-spoke-custom/aviatrix"
 
   # Inputs from Input Workspace
   name = var.name
