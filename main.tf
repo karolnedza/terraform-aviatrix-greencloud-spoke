@@ -7,6 +7,7 @@ module "azure-greencloud-spoke" {
   cidr = var.cidr
   region = var.region
   arm_subscription_id = var.arm_subscription_id
+  cloud = var.cloud
 
   # Secrets 
 
